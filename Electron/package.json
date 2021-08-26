@@ -1,0 +1,22 @@
+{
+  "name": "hsicore-electron",
+  "version": "0.0.1",
+  "description": "HSICore Electron Root",
+  "main": "SrcJS/mainProcess.js",
+  "scripts": {
+    "test": "echo Please run 'npm run' in the terminal to build this program"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectHSI/HSICore.git"
+  },
+  "author": "[Project HSI]",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ProjectHSI/HSICore/issues"
+  },
+  "homepage": "https://github.com/ProjectHSI/HSICore#readme",
+  "dependencies": {
+    "electron": "^13.2.2"
+  }
+}
