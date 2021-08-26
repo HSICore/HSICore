@@ -1,0 +1,23 @@
+{
+  "name": "hsicore",
+  "version": "1.0.0",
+  "description": "Cross-System Integration System",
+  "main": "main.js",
+  "scripts": {
+    "test": "main.js --test -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectHSI/HSICore.git"
+  },
+  "author": "[Project HSI]",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProjectHSI/HSICore/issues"
+  },
+  "homepage": "https://github.com/ProjectHSI/HSICore#readme",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "npmlog": "^4.1.2"
+  }
+}
