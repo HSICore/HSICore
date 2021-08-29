@@ -2,9 +2,9 @@
   "name": "hsicore",
   "version": "1.0.0",
   "description": "Cross-System Integration System",
-  "main": "main.js",
+  "main": "boot/bm.js",
   "scripts": {
-    "test": "main.js --test -d"
+    "test": "boot/bm.js -v"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ProjectHSI/HSICore#readme",
   "dependencies": {
+    "ansi-colors": "^4.1.1",
     "commander": "^8.1.0",
     "npmlog": "^4.1.2"
   }
